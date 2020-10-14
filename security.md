@@ -78,7 +78,7 @@ The basic protocols of email delivery did not plan for the presence of adversari
 
 ### DNSSEC
 
-The first step in resolving the destination server for an email address is performing a DNS look-up for the MX record of the domain name. The box uses a locally-running [DNSSEC](https://en.wikipedia.org/wiki/DNSSEC)-aware nameserver to perform the lookup. If the domain name has DNSSEC enabled, DNSSEC guards against DNS records being tampered with.
+The first step in resolving the destination server for an email address is performing a DNS look-up for the MX record of the domain name. The box uses a locally-running [DNSSEC-aware](https://en.wikipedia.org/wiki/DNSSEC) nameserver to perform the lookup. If the domain name has DNSSEC enabled, DNSSEC guards against DNS records being tampered with.
 
 ### Encryption
 
